@@ -1,0 +1,25 @@
+# Ignorar el entorno virtual
+env/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar la base de datos SQLite
+db.sqlite3
+
+# Ignorar archivos de migraciones
+*/migrations/
+
+# Ignorar archivos de configuración y entornos
+.env
+.env.*
+
+# Archivos de caché y otros generados
+*.log
+*.pot
+*.pyc
+.DS_Store
+.idea/
+.vscode/

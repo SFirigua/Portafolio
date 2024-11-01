@@ -1,0 +1,21 @@
+.btn-flotante {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Para que esté encima de otros elementos */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s;
+}
+
+.btn-flotante:hover {
+    background-color: #0056b3;
+}
