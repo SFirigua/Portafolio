@@ -1,9 +1,9 @@
 .btn-flotante {
-    display: none; /* Oculto inicialmente */
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 100; /* Para que esté encima de otros elementos */
+    z-index: 100;
     background-color: #007bff;
     color: white;
     border: none;
