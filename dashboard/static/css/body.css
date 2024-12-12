@@ -1,9 +1,13 @@
- img {
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.images {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
-img:hover {
+.images:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -14,6 +18,24 @@ a {
 
 a:hover {
     transform: scale(1.05);
+}
+
+section {
+    scroll-margin-top: 5rem;
+}
+
+#sobre-mi {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#sobre-mi p {
+    font-size: 1.1rem; /* Tamaño legible */
+    line-height: 1.8; /* Altura de línea para mejor legibilidad */
+    text-align: justify; /* Texto justificado */
+    margin-bottom: 0; /* Sin margen inferior */
 }
 
 #tecnologias .p-3 {
@@ -30,6 +52,26 @@ a:hover {
 
 #tecnologias p {
     font-weight: bold;
+}
+
+.formation {
+    font-size: 1rem; /* Tamaño adecuado para lectura */
+    line-height: 1.8; /* Altura de línea para mejorar la legibilidad */
+    text-align: justify; /* Alineación justificada para uniformidad */
+
+}
+
+.carousel-controls {
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: relative;
 }
 
 .btn-flotante {
@@ -53,9 +95,6 @@ a:hover {
 
 .btn-flotante:hover {
     background-color: #0056b3;
-    transform: translateY(-2px); /* Efecto de levantamiento */
+    transform: translateY(-2px);
 }
 
-section {
-    scroll-margin-top: 5rem; /* Ajusta el valor según la altura del navbar */
-}
